@@ -8,3 +8,57 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    background-color: #540B51;
+}
+.navigation {
+    background-color: #540B51;
+}
+h1 {
+    color:white;
+}
+
+
+.buttons {
+    flex-direction: column;
+    justify-content: center;
+}
+.main p {
+    text-align: center;
+    font-weight: bold;
+
+}
+@media (max-width: 768px) {
+   .container{ 
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+   }
+   .container img {
+    display: flex;
+    background-color: ;
+    max-width: 240px;
+    max-height: 120px;
+    
+   }
+   .mobile-img {
+    display: flex;
+    object-fit: contain;
+    aspect-ratio: 3/3;
+   }
+   .flexibility-img {
+    display: flex;
+    object-fit: contain;
+    aspect-ratio: 3/3;
+   }
+   .speed-img {
+    display: flex;
+    object-fit: contain;
+    aspect-ratio: 3/3;
+   }
+  }
